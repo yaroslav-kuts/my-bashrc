@@ -16,8 +16,12 @@ export EDITOR=vim
 alias q='exit'
 alias c='clear'
 alias h='history'
+alias hg='history | grep'
+alias pp='ss -tulpn | grep'
 
 alias projects='cd ~/Projects'
+alias home='cd'
+alias back='cd $OLDPWD'
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
@@ -29,6 +33,7 @@ alias l='ls -CF'
 
 alias y='yarn'
 alias ys='yarn start'
+alias yt='yarn test'
 
 alias g='git'
 alias gs='git status'
