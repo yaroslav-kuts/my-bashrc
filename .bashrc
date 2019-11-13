@@ -16,13 +16,20 @@ export EDITOR=vim
 alias q='exit'
 alias c='clear'
 alias h='history'
+
 alias projects='cd ~/Projects'
 alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
+
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
+
 alias y='yarn'
 alias ys='yarn start'
+
 alias g='git'
 alias gs='git status'
 alias gst='git stash'
