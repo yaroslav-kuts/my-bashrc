@@ -11,6 +11,9 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 # Set Vim as my default editor
 export EDITOR=vim
 
+# Get rid of annoying warning on MacOS
+export BASH_SILENCE_DEPRECATION_WARNING=1
+
 ##### ALIASES #####
 
 alias q='exit'
